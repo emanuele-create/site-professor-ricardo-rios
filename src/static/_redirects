@@ -1,0 +1,23 @@
+# Endereços do site anterior → nova versão (301)
+/inicio/                                                          /                                        301
+/inicio/blog-contabil-financeiro/                                 /blog/                                   301
+/cursos-palestras-ia-reforma/blog-contabil-financeiro/            /blog/                                   301
+/cursos-palestras-ia-reforma/                                     /                                        301
+/category/*                                                       /blog/                                   301
+/evolucao-da-tecnologia-de-hardware-de-ia-o-que-voce-precisa-saber/   /blog/categoria/tecnologia-ia/       301
+/como-a-inteligencia-artificial-pode-ajudar-a-tornar-os-data-centers-mais-sustentaveis/ /blog/categoria/tecnologia-ia/ 301
+/mit-transit-lab-desenvolve-plataforma-de-ia-para-agencias-de-transporte-publico/ /blog/categoria/tecnologia-ia/ 301
+/impacto-do-aumento-de-precos-da-deepseek-na-industria-de-ai/     /blog/categoria/tecnologia-ia/           301
+/desenvolvendo-a-inteligencia-artificial-para-o-mundo-real/       /blog/categoria/tecnologia-ia/           301
+/o-que-voce-precisa-saber-sobre-a-fase-de-integracao-do-split-payment/ /blog/split-payment-o-que-comeca-agora/ 301
+/split-payment-o-que-os-prestadores-de-servicos-de-pagamento-precisam-saber/ /blog/split-payment-o-que-comeca-agora/ 301
+/fase-de-testes-do-split-payment-o-que-seu-negocio-precisa-saber/ /blog/split-payment-o-que-comeca-agora/  301
+/split-payment-entenda-a-nova-fase-de-integracao-com-prestadores-de-servicos-de-pagamento/ /blog/split-payment-o-que-comeca-agora/ 301
+/fase-de-integracao-do-split-payment-o-que-esperar-e-como-participar/ /blog/split-payment-o-que-comeca-agora/ 301
+/novos-codigos-de-meios-de-pagamento-na-reforma-tributaria-dfe-split-payment/ /blog/split-payment-o-que-comeca-agora/ 301
+/entenda-como-obter-descontos-de-ate-65-em-dividas-tributarias/   /blog/transacao-tributaria-quando-vale-a-pena/ 301
+/entenda-as-novas-regras-sobre-isencao-de-ganho-de-capital-e-denuncia-espontanea/ /blog/categoria/contabilidade/ 301
+/reforma-tributaria-trf-3-suspende-aumento-de-irpj-e-csll/        /blog/categoria/contabilidade/           301
+/mude-sua-percepcao-sobre-a-emissao-do-cnpj-com-a-nova-reforma-tributaria/ /blog/categoria/reforma-tributaria/ 301
+/desafios-do-novo-sistema-de-tributacao-o-que-esperar/            /blog/categoria/reforma-tributaria/      301
+/novidade-no-simples-nacional-mudancas-importantes-para-2027/     /blog/categoria/reforma-tributaria/      301

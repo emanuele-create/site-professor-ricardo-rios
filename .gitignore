@@ -1,0 +1,14 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+*.log
+.env*
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.vscode/
+.idea/
+# Dados locais do agente (credenciais/sessões); as skills do Spec Kit continuam versionadas
+.claude/settings.local.json

@@ -1,0 +1,44 @@
+<form class="form" action="{{formAction}}" method="{{formMetodo}}" enctype="{{formEnctype}}" data-form-contato data-modo="{{formModo}}" data-email="{{site.email}}">
+  <input type="hidden" name="_subject" value="Contato pelo site">
+  <div class="form__linha">
+    <div class="campo">
+      <label class="campo__rotulo" for="campo-nome">Nome <span class="campo__obrigatorio">(obrigatório)</span></label>
+      <input class="campo__entrada" id="campo-nome" name="nome" type="text" autocomplete="name" required minlength="2" maxlength="100" aria-describedby="erro-nome">
+      <p class="campo__erro" id="erro-nome" aria-live="polite"></p>
+    </div>
+    <div class="campo">
+      <label class="campo__rotulo" for="campo-email">E-mail <span class="campo__obrigatorio">(obrigatório)</span></label>
+      <input class="campo__entrada" id="campo-email" name="email" type="email" autocomplete="email" required maxlength="150" aria-describedby="erro-email">
+      <p class="campo__erro" id="erro-email" aria-live="polite"></p>
+    </div>
+  </div>
+  <div class="campo">
+    <label class="campo__rotulo" for="campo-assunto">Assunto <span class="campo__obrigatorio">(obrigatório)</span></label>
+    <select class="campo__entrada" id="campo-assunto" name="assunto" required aria-describedby="erro-assunto">
+      <option value="">Selecione</option>
+      <option value="palestra">Convite para palestra</option>
+      <option value="empresa">Treinamento para empresa</option>
+      <option value="curso">Dúvida sobre cursos</option>
+      <option value="outro">Outro assunto</option>
+    </select>
+    <p class="campo__erro" id="erro-assunto" aria-live="polite"></p>
+  </div>
+  <div class="campo">
+    <label class="campo__rotulo" for="campo-mensagem">Mensagem <span class="campo__obrigatorio">(obrigatório)</span></label>
+    <textarea class="campo__entrada" id="campo-mensagem" name="mensagem" rows="6" required minlength="10" maxlength="3000" aria-describedby="erro-mensagem"></textarea>
+    <p class="campo__erro" id="erro-mensagem" aria-live="polite"></p>
+  </div>
+  <div class="campo campo--isca" aria-hidden="true">
+    <label for="campo-site">Não preencha este campo</label>
+    <input id="campo-site" name="_gotcha" type="text" tabindex="-1" autocomplete="off">
+  </div>
+  <div class="campo campo--checkbox">
+    <input id="campo-privacidade" name="privacidade" type="checkbox" value="sim" required aria-describedby="erro-privacidade">
+    <label for="campo-privacidade">Li e concordo com a <a href="/politica-de-privacidade/">política de privacidade</a>. Meus dados serão usados apenas para responder a este contato.</label>
+    <p class="campo__erro" id="erro-privacidade" aria-live="polite"></p>
+  </div>
+  <div class="botoes">
+    <button class="botao" type="submit">Enviar mensagem</button>
+  </div>
+  <div class="form__status" role="status" aria-live="polite" data-form-status></div>
+</form>

@@ -1,0 +1,30 @@
+[
+  {
+    "titulo": "Holding Familiar",
+    "subtitulo": "Planejamento sucessório por meio de holding",
+    "coautores": [],
+    "resumo": "Um guia para entender quando e como a holding familiar organiza o patrimônio, reduz conflitos e prepara a sucessão, com a visão contábil e tributária de quem atua na prática.",
+    "link": "https://www.amazon.com/author/ricardo-rios",
+    "destaque": true
+  },
+  {
+    "titulo": "Contabilidade Avançada",
+    "edicao": "3ª edição",
+    "coautores": ["José Carlos Marion"],
+    "link": "https://www.amazon.com/author/ricardo-rios",
+    "destaque": false
+  },
+  {
+    "titulo": "Manual do Contador",
+    "subtitulo": "Guia para iniciantes na profissão contábil",
+    "coautores": ["José Carlos Marion"],
+    "link": "https://www.amazon.com/author/ricardo-rios",
+    "destaque": false
+  },
+  {
+    "titulo": "Contabilidade para Executivos",
+    "coautores": ["José Carlos Marion", "Adalberto Cardoso"],
+    "link": "https://www.amazon.com/author/ricardo-rios",
+    "destaque": false
+  }
+]

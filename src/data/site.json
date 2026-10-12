@@ -1,0 +1,20 @@
+{
+  "nome": "Professor Ricardo Rios",
+  "nomeCompleto": "Ricardo Pereira Rios",
+  "descritor": "Professor, Empresário e Consultor",
+  "url": "https://professorricardorios.com.br",
+  "descricao": "Cursos, livros e conteúdo sobre Reforma Tributária, contabilidade e inteligência artificial com o Prof. Ricardo Rios.",
+  "email": "contato@professorricardorios.com.br",
+  "formEndpoint": "",
+  "fotoProfessor": "",
+  "podcastUrl": "https://www.contabeis.com.br/podcasts/contabilizando/",
+  "canalUrl": "https://www.youtube.com/c/CONFIContabilidadeeFinan%C3%A7as",
+  "amazonUrl": "https://www.amazon.com/author/ricardo-rios",
+  "redes": [
+    { "nome": "Instagram", "url": "https://www.instagram.com/professorricardorios/" },
+    { "nome": "LinkedIn", "url": "https://www.linkedin.com/in/ricardo-rios-29237921/" },
+    { "nome": "YouTube", "url": "https://www.youtube.com/c/CONFIContabilidadeeFinan%C3%A7as" },
+    { "nome": "TikTok", "url": "https://www.tiktok.com/@professorricardorios" }
+  ],
+  "politicaAtualizada": "2026-10-12"
+}

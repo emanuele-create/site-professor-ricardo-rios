@@ -1,0 +1,38 @@
+<header class="cabecalho">
+  <div class="cabecalho__faixa"></div>
+  <div class="container cabecalho__interno">
+    <a class="marca" href="/">
+      {{{monograma}}}
+      <span class="marca__texto">
+        <span class="marca__nome">Ricardo Rios</span>
+        <span class="descritor marca__descritor">{{site.descritor}}</span>
+      </span>
+      <span class="visualmente-oculto"> — página inicial</span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <div class="nav__painel" id="menu-principal">
+        <ul class="nav__lista" role="list">
+          <li><a class="nav__link" href="/#sobre" data-nav>Sobre</a></li>
+          <li><a class="nav__link" href="/#cursos" data-nav>Cursos</a></li>
+          <li><a class="nav__link" href="/aprenda-reforma-tributaria-na-pratica/" data-nav>Reforma Tributária</a></li>
+          <li><a class="nav__link" href="/#livros" data-nav>Livros</a></li>
+          <li><a class="nav__link" href="/#podcasts" data-nav>Podcasts</a></li>
+          <li><a class="nav__link" href="/blog/" data-nav>Blog</a></li>
+          <li><a class="nav__link" href="/#contato" data-nav>Contato</a></li>
+        </ul>
+        <a class="botao" href="/#cursos">Inscreva-se no curso</a>
+      </div>
+    </nav>
+    <div class="cabecalho__acoes">
+      <button class="botao-icone tema-alternar" type="button" aria-pressed="false" data-tema-alternar>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></svg>
+        <span class="visualmente-oculto">Tema escuro</span>
+      </button>
+      <a class="botao cabecalho__cta" href="/#cursos">Inscreva-se no curso</a>
+      <button class="botao-icone nav__alternar" type="button" aria-expanded="false" aria-controls="menu-principal" data-menu-alternar>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        <span class="visualmente-oculto" data-menu-rotulo>Abrir menu</span>
+      </button>
+    </div>
+  </div>
+</header>

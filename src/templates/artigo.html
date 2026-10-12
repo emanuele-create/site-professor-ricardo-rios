@@ -1,0 +1,36 @@
+<article aria-labelledby="artigo-titulo">
+  <div class="container container--texto">
+    <header class="artigo__cabecalho">
+      <a class="voltar" href="/blog/"><span aria-hidden="true">←</span> Blog</a>
+      <p class="eyebrow"><a class="eyebrow-link" href="{{artigo.categoriaLink}}">{{artigo.categoriaNome}}</a></p>
+      <h1 class="artigo__titulo" id="artigo-titulo">{{artigo.titulo}}</h1>
+      <p class="lead">{{artigo.resumo}}</p>
+      <div class="artigo__meta">
+        <span>Por {{artigo.autor}}</span>
+        <time datetime="{{artigo.data}}">{{artigo.dataExtenso}}</time>
+      </div>
+    </header>
+    <div class="prosa">
+      {{{artigo.conteudoHTML}}}
+    </div>
+  </div>
+</article>
+<section class="secao secao--marinho sobre-marinho" aria-labelledby="artigo-cta-titulo">
+  <div class="container chamada-final">
+    <p class="eyebrow">Curso</p>
+    <h2 class="titulo-1" id="artigo-cta-titulo">Quer dominar a Reforma Tributária passo a passo?</h2>
+    <p class="lead">Do básico ao avançado, com base legal comentada e simulações.</p>
+    <div class="botoes botoes--empilhar">
+      <a class="botao botao--claro" href="/aprenda-reforma-tributaria-na-pratica/">Conheça o curso</a>
+    </div>
+  </div>
+</section>
+<section class="secao secao--sem-fio" aria-labelledby="relacionados-titulo">
+  <div class="container">
+    <div class="secao__cabecalho">
+      <p class="eyebrow">Continue lendo</p>
+      <h2 class="titulo-2" id="relacionados-titulo">Artigos relacionados</h2>
+    </div>
+    {{{relacionados}}}
+  </div>
+</section>

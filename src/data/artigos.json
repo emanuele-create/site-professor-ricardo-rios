@@ -1,0 +1,149 @@
+{
+  "categorias": [
+    {
+      "slug": "reforma-tributaria",
+      "nome": "Reforma Tributária",
+      "descricao": "IBS, CBS, Imposto Seletivo, split payment e a transição para o novo sistema."
+    },
+    {
+      "slug": "contabilidade",
+      "nome": "Contabilidade",
+      "descricao": "Prática contábil e tributária, gestão de passivos e planejamento patrimonial."
+    },
+    {
+      "slug": "tecnologia-ia",
+      "nome": "Tecnologia & IA",
+      "descricao": "Inteligência artificial aplicada a negócios e à rotina contábil."
+    }
+  ],
+  "artigos": [
+    {
+      "slug": "split-payment-o-que-comeca-agora",
+      "titulo": "Split payment começa agora? Não exatamente.",
+      "data": "2026-10-06",
+      "categoria": "reforma-tributaria",
+      "autor": "Ricardo Rios",
+      "resumo": "O que está em andamento são as fases de teste e integração com os prestadores de serviços de pagamento. Entenda o mecanismo e o que a empresa já pode preparar.",
+      "destaque": true,
+      "conteudo": [
+        { "tipo": "p", "texto": "O split payment é o mecanismo previsto na Lei Complementar 214/2025 para recolher o IBS e a CBS **no momento da liquidação financeira** da operação. Em vez de a empresa receber o valor cheio e recolher o tributo depois, parte do pagamento é separada e destinada ao fisco já na transação." },
+        { "tipo": "p", "texto": "A implantação é gradual. O que está em andamento são fases de teste e de integração com os prestadores de serviços de pagamento, como bancos, credenciadoras e instituições de pagamento. Ainda não é a regra geral para todas as operações." },
+        { "tipo": "h2", "texto": "O que muda para a empresa" },
+        { "tipo": "p", "texto": "O ponto central é a ligação entre o documento fiscal e o pagamento. Para que a separação do tributo funcione, a nota precisa trazer as informações corretas e o meio de pagamento precisa ser identificado." },
+        { "tipo": "lista", "itens": [
+          "Revisar o cadastro de produtos e serviços com a classificação correta.",
+          "Conferir se o sistema emissor já trata os novos campos do IBS e da CBS.",
+          "Mapear os meios de pagamento usados e conversar com os prestadores.",
+          "Preparar a conciliação financeira para valores recebidos já sem o tributo."
+        ] },
+        { "tipo": "h2", "texto": "Por que começar agora" },
+        { "tipo": "p", "texto": "Quem ajusta cadastro e sistema durante o período de testes chega à fase obrigatória com menos retrabalho. O teste agora é saber se a empresa consegue **emitir corretamente**." }
+      ]
+    },
+    {
+      "slug": "2026-ano-de-teste-cbs-ibs",
+      "titulo": "2026, o ano de teste da CBS e do IBS: o que muda na nota fiscal",
+      "data": "2026-10-02",
+      "categoria": "reforma-tributaria",
+      "autor": "Ricardo Rios",
+      "resumo": "Em 2026, CBS e IBS aparecem nos documentos fiscais com alíquotas de teste. O objetivo é calibrar o sistema, e o desafio da empresa é emitir certo.",
+      "destaque": false,
+      "conteudo": [
+        { "tipo": "p", "texto": "A Lei Complementar 214/2025 definiu 2026 como um ano de transição e teste. A CBS e o IBS passam a ser informados nos documentos fiscais com alíquotas reduzidas de teste: **0,9% de CBS e 0,1% de IBS**." },
+        { "tipo": "p", "texto": "O propósito desse período é calibrar o novo modelo: validar os campos dos documentos, os cálculos e o cruzamento de informações antes que os novos tributos ganhem peso real na carga tributária." },
+        { "tipo": "h2", "texto": "Onde a empresa costuma errar" },
+        { "tipo": "lista", "itens": [
+          "Classificação fiscal desatualizada no cadastro de itens.",
+          "Sistema emissor sem os novos grupos de informação do IBS e da CBS.",
+          "Falta de conferência entre o que foi emitido e o que foi escriturado."
+        ] },
+        { "tipo": "h2", "texto": "O que fazer agora" },
+        { "tipo": "p", "texto": "Trate 2026 como um ensaio geral. Emita, confira e corrija. Os erros de cadastro e de parametrização são mais baratos de resolver enquanto as alíquotas ainda são de teste." }
+      ]
+    },
+    {
+      "slug": "transacao-tributaria-quando-vale-a-pena",
+      "titulo": "Transação tributária: como avaliar se o desconto vale a pena",
+      "data": "2026-10-08",
+      "categoria": "contabilidade",
+      "autor": "Ricardo Rios",
+      "resumo": "Os editais de transação oferecem descontos e prazos para dívidas tributárias. Antes de aderir, vale olhar o fluxo de caixa e as obrigações que vêm junto.",
+      "destaque": false,
+      "conteudo": [
+        { "tipo": "p", "texto": "A transação tributária permite negociar débitos inscritos em dívida ativa com descontos sobre multas, juros e encargos, além de prazos maiores para pagamento. As condições variam conforme o edital e a capacidade de pagamento do contribuinte." },
+        { "tipo": "p", "texto": "O desconto anunciado chama a atenção, mas a decisão deve olhar para **o caixa da empresa nos próximos anos**, e não só para o valor do abatimento." },
+        { "tipo": "h2", "texto": "Perguntas antes de aderir" },
+        { "tipo": "lista", "itens": [
+          "As parcelas cabem no fluxo de caixa projetado, inclusive em meses fracos?",
+          "Quais compromissos a adesão exige, como desistência de discussões judiciais?",
+          "O que acontece em caso de atraso ou rescisão do acordo?",
+          "Há outra modalidade ou edital mais adequado ao perfil da dívida?"
+        ] },
+        { "tipo": "h2", "texto": "O papel do contador" },
+        { "tipo": "p", "texto": "Cabe ao contador simular cenários e mostrar ao empresário o custo total de cada alternativa. Uma boa transação resolve o passivo sem criar um novo problema de caixa." }
+      ]
+    },
+    {
+      "slug": "holding-familiar-quando-faz-sentido",
+      "titulo": "Holding familiar: quando faz sentido no planejamento sucessório",
+      "data": "2026-09-22",
+      "categoria": "contabilidade",
+      "autor": "Ricardo Rios",
+      "resumo": "A holding familiar não é solução para todos. Ela faz sentido quando organiza o patrimônio, a gestão e a sucessão, e não apenas como promessa de economia.",
+      "destaque": false,
+      "conteudo": [
+        { "tipo": "p", "texto": "A holding familiar é uma sociedade criada para concentrar e administrar bens e participações de uma família. Bem estruturada, ela **organiza a sucessão** e reduz conflitos entre herdeiros." },
+        { "tipo": "p", "texto": "O erro mais comum é tratá-la como produto de prateleira. A decisão depende do tamanho e da natureza do patrimônio, da dinâmica familiar e dos custos de manter a estrutura funcionando." },
+        { "tipo": "h2", "texto": "Sinais de que vale a pena estudar" },
+        { "tipo": "lista", "itens": [
+          "Patrimônio relevante em imóveis ou participações societárias.",
+          "Vários herdeiros e necessidade de regras claras de gestão.",
+          "Desejo de planejar a sucessão em vida, com tranquilidade."
+        ] },
+        { "tipo": "h2", "texto": "Atenção à Reforma Tributária" },
+        { "tipo": "p", "texto": "Operações com imóveis passam a ter novas regras com o IBS e a CBS. Qualquer estudo de holding feito agora precisa considerar a transição tributária, e não apenas a legislação anterior." }
+      ]
+    },
+    {
+      "slug": "ia-na-contabilidade-por-onde-comecar",
+      "titulo": "IA na contabilidade: por onde começar sem perder o controle",
+      "data": "2026-10-08",
+      "categoria": "tecnologia-ia",
+      "autor": "Ricardo Rios",
+      "resumo": "A inteligência artificial já ajuda em tarefas de leitura, classificação e redação. O ganho aparece quando o escritório define processos e revisão humana.",
+      "destaque": false,
+      "conteudo": [
+        { "tipo": "p", "texto": "A inteligência artificial deixou de ser promessa distante. Ferramentas de linguagem já leem documentos, resumem normas e sugerem classificações. A pergunta útil não é se usar, mas **onde ela cabe no processo**." },
+        { "tipo": "h2", "texto": "Comece por tarefas repetitivas e verificáveis" },
+        { "tipo": "lista", "itens": [
+          "Resumo de normas e comunicados para a equipe.",
+          "Primeira versão de e-mails e relatórios para clientes.",
+          "Triagem e organização de documentos recebidos."
+        ] },
+        { "tipo": "h2", "texto": "Mantenha a revisão humana" },
+        { "tipo": "p", "texto": "A IA pode errar com segurança aparente. Toda saída que afeta apuração, declaração ou orientação ao cliente precisa de conferência por um profissional. O ganho vem da combinação: a ferramenta acelera, o contador responde pelo resultado." }
+      ]
+    },
+    {
+      "slug": "avaliar-ferramenta-de-ia-dados-de-clientes",
+      "titulo": "Antes de usar IA com dados de clientes, faça estas perguntas",
+      "data": "2026-09-15",
+      "categoria": "tecnologia-ia",
+      "autor": "Ricardo Rios",
+      "resumo": "Dados fiscais e pessoais exigem cuidado. Antes de adotar uma ferramenta de IA no escritório, verifique onde os dados ficam e como são usados.",
+      "destaque": false,
+      "conteudo": [
+        { "tipo": "p", "texto": "Escritórios contábeis lidam com dados pessoais e fiscais sensíveis. Ao adotar uma ferramenta de inteligência artificial, a responsabilidade pelo tratamento desses dados continua sendo **do escritório**, conforme a LGPD." },
+        { "tipo": "h2", "texto": "Perguntas para o fornecedor" },
+        { "tipo": "lista", "itens": [
+          "Os dados enviados são usados para treinar modelos?",
+          "Onde os dados são armazenados e por quanto tempo?",
+          "Há contrato que trate do tratamento de dados pessoais?",
+          "É possível controlar quem da equipe acessa a ferramenta?"
+        ] },
+        { "tipo": "h2", "texto": "Regras internas simples" },
+        { "tipo": "p", "texto": "Defina o que pode e o que não pode ser enviado, prefira versões corporativas com garantias contratuais e registre o uso. Clareza nas regras protege o cliente e o escritório." }
+      ]
+    }
+  ]
+}

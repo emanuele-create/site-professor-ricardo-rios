@@ -1,0 +1,99 @@
+[
+  {
+    "id": "desvendando-reforma-tributaria",
+    "nome": "Desvendando a Reforma Tributária passo a passo",
+    "editoria": "Reforma Tributária",
+    "resumo": "Curso completo sobre a EC 132/2023 e a LC 214/2025: IBS, CBS, Imposto Seletivo, transição e impactos práticos nas empresas, do básico ao avançado.",
+    "publico": "Contadores, empresários, advogados e estudantes. Não é preciso ser contador.",
+    "status": "abertas",
+    "linkCompra": "https://hotmart.com/pt-br/marketplace/produtos/hagsxd-desvendando-a-reforma-tributaria-passo-a-passo-b7mjq/Y102570353B",
+    "pagina": "/aprenda-reforma-tributaria-na-pratica/",
+    "destaque": true,
+    "subtitulo": "IBS, CBS, IS, transição e impactos: do básico ao avançado.",
+    "descricao": "Um curso objetivo sobre a Emenda Constitucional 132/2023 e a regulamentação da Reforma do Consumo. Você entende o IVA Dual, o split payment e os regimes específicos, e prepara a empresa e os clientes para a transição.",
+    "topicos": [
+      "IVA Dual: IBS e CBS",
+      "Split payment e novo documento fiscal",
+      "Simples Nacional, MEI e regimes específicos",
+      "Cronograma de transição"
+    ],
+    "instrutor": {
+      "nome": "Ricardo Pereira Rios",
+      "resumo": "Contador, educador e empreendedor contábil. Pós-doutor em Ciências Contábeis, Controladoria e Finanças, com mais de 25 anos em contabilidade tributária e quase duas décadas no ensino superior."
+    },
+    "fluxo": [
+      { "titulo": "Fundamentos", "texto": "Contexto, pilares do novo modelo e o papel de cada tributo." },
+      { "titulo": "Regras operacionais", "texto": "Alíquotas, regimes específicos, créditos e documento fiscal." },
+      { "titulo": "Aplicação", "texto": "Estratégias para a empresa e para os clientes na transição." }
+    ],
+    "beneficios": [
+      { "titulo": "Plano de estudo passo a passo", "texto": "Trilha didática que parte do zero e chega ao domínio do tema." },
+      { "titulo": "Materiais em PDF", "texto": "Slides e cadernos de apoio para consulta rápida no dia a dia." },
+      { "titulo": "Casos e simulações", "texto": "Exemplos numéricos em diferentes cenários e regimes." },
+      { "titulo": "Base legal comentada", "texto": "EC 132/2023 e LC 214/2025 explicadas em linguagem simples." },
+      { "titulo": "Suporte e comunidade", "texto": "Espaço para tirar dúvidas e receber as atualizações da regulamentação." }
+    ],
+    "modulos": [
+      {
+        "numero": 1,
+        "nome": "Panorama e fundamentos da reforma",
+        "cargaHoraria": "3h",
+        "liberacao": "No início do curso",
+        "resumo": "Contexto, pilares do novo modelo e impactos do IBS, da CBS e do Imposto Seletivo."
+      },
+      {
+        "numero": 2,
+        "nome": "Regras operacionais e regimes específicos",
+        "cargaHoraria": "3h",
+        "liberacao": "Contínua",
+        "resumo": "Alíquotas, setores com tratamento diferenciado e o funcionamento do Imposto Seletivo."
+      },
+      {
+        "numero": 3,
+        "nome": "Simples Nacional, MEI e estratégias",
+        "cargaHoraria": "2h30",
+        "liberacao": "Contínua",
+        "resumo": "Como as pequenas empresas se integram ao novo sistema e a escolha entre o regime híbrido e o padrão."
+      },
+      {
+        "numero": 4,
+        "nome": "Digitalização, DF-e e split payment",
+        "cargaHoraria": "2h",
+        "liberacao": "Contínua",
+        "resumo": "Novo documento fiscal, integrações, aproveitamento de créditos e efeitos no fluxo de caixa."
+      }
+    ],
+    "faq": [
+      { "pergunta": "Preciso ser contador para acompanhar?", "resposta": "Não. O curso foi pensado para contadores, empresários, advogados e estudantes. Os conceitos são apresentados do básico ao avançado." },
+      { "pergunta": "As aulas ficam gravadas?", "resposta": "Sim. Você acessa as gravações e os materiais em PDF pelo período informado na plataforma de ensino." },
+      { "pergunta": "Há certificado de conclusão?", "resposta": "Sim. Ao concluir os módulos e as atividades, você recebe um certificado digital de participação." },
+      { "pergunta": "Qual é o investimento e as formas de pagamento?", "resposta": "O valor, as formas de pagamento e eventuais condições especiais aparecem na página de inscrição, na plataforma de pagamento." },
+      { "pergunta": "Existe garantia?", "resposta": "Sim. Você pode solicitar o reembolso dentro do prazo, conforme a política da plataforma de pagamento." },
+      { "pergunta": "O conteúdo é atualizado se a regulamentação mudar?", "resposta": "Sim. Mudanças relevantes na regulamentação geram comunicados e conteúdos complementares para os alunos." }
+    ],
+    "garantia": "Reembolso dentro do prazo, conforme a política da plataforma de pagamento."
+  },
+  {
+    "id": "holding-familiar",
+    "nome": "Holding Familiar na Prática",
+    "editoria": "Planejamento patrimonial",
+    "resumo": "Como estruturar uma holding familiar para organizar o patrimônio e o planejamento sucessório, com foco na aplicação prática para contadores e famílias empresárias.",
+    "publico": "Contadores, advogados, consultores e famílias empresárias.",
+    "status": "abertas",
+    "linkCompra": "https://hotmart.com/pt-br/marketplace/produtos/holding-familiar-na-pratica/G56052326J",
+    "pagina": null,
+    "destaque": false
+  },
+  {
+    "id": "palestras",
+    "nome": "Palestras e treinamentos para empresas",
+    "editoria": "In company",
+    "resumo": "Palestras e treinamentos sob medida sobre Reforma Tributária, contabilidade e inteligência artificial aplicada a negócios, para eventos, equipes e entidades de classe.",
+    "publico": "Empresas, escritórios contábeis, conselhos e instituições de ensino.",
+    "status": "abertas",
+    "linkCompra": "/#contato",
+    "rotuloLink": "Solicitar proposta",
+    "pagina": null,
+    "destaque": false
+  }
+]

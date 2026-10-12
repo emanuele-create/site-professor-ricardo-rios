@@ -1,0 +1,99 @@
+<!--meta {
+  "caminho": "/aprenda-reforma-tributaria-na-pratica/",
+  "titulo": "Desvendando a Reforma Tributária passo a passo",
+  "descricao": "Curso completo sobre IBS, CBS, Imposto Seletivo, split payment e transição, com base na EC 132/2023 e na LC 214/2025. Do básico ao avançado.",
+  "classeCorpo": "com-barra-cta"
+} -->
+<section class="curso-topo com-grade" aria-labelledby="curso-titulo">
+  <div class="container curso-topo__grade">
+    <div class="curso-topo__texto">
+      <p class="selo">{{curso.statusRotulo}}</p>
+      <p class="eyebrow">Curso · Reforma Tributária</p>
+      <h1 class="display-serifa" id="curso-titulo">{{curso.nome}}</h1>
+      <p class="lead">{{curso.subtitulo}}</p>
+      <p>{{curso.descricao}}</p>
+      <div class="botoes botoes--empilhar" data-cta-principal>
+        {{{curso.linkCompraHTML}}}
+        <a class="botao botao--secundario" href="#estrutura">Ver os módulos</a>
+      </div>
+    </div>
+    <aside class="painel" aria-label="Ficha do curso">
+      <p class="painel__pergunta">Ficha do curso</p>
+      <dl class="curso-ficha">
+        <div><dt>Módulos</dt><dd>{{curso.totalModulos}}</dd></div>
+        <div><dt>Carga horária</dt><dd>{{curso.cargaTotal}}</dd></div>
+        <div><dt>Formato</dt><dd>Online, aulas gravadas</dd></div>
+        <div><dt>Materiais</dt><dd>PDFs e simulações</dd></div>
+        <div><dt>Certificado</dt><dd>Sim</dd></div>
+      </dl>
+      <p class="corpo-pequeno">{{curso.publico}}</p>
+    </aside>
+  </div>
+</section>
+
+<section class="secao" aria-labelledby="percurso-titulo">
+  <div class="container">
+    <div class="secao__cabecalho">
+      <p class="eyebrow">Percurso</p>
+      <h2 class="titulo-2" id="percurso-titulo">Do fundamento à aplicação na empresa.</h2>
+    </div>
+    {{{curso.fluxoHTML}}}
+  </div>
+</section>
+
+<section class="secao secao--clara" aria-labelledby="beneficios-titulo">
+  <div class="container">
+    <div class="secao__cabecalho">
+      <p class="eyebrow">Por que este curso</p>
+      <h2 class="titulo-2" id="beneficios-titulo">Por que este curso acelera sua adaptação?</h2>
+      <p class="lead">Conteúdo objetivo, com base legal atualizada e <strong>foco prático</strong>.</p>
+    </div>
+    {{{curso.beneficiosHTML}}}
+  </div>
+</section>
+
+<section class="secao" id="estrutura" aria-labelledby="estrutura-titulo">
+  <div class="container">
+    <div class="secao__cabecalho">
+      <p class="eyebrow">Estrutura do curso</p>
+      <h2 class="titulo-2" id="estrutura-titulo">{{curso.totalModulos}} módulos, {{curso.cargaTotal}} de conteúdo.</h2>
+    </div>
+    {{{curso.modulosHTML}}}
+  </div>
+</section>
+
+<section class="secao secao--clara" aria-labelledby="instrutor-titulo">
+  <div class="container instrutor">
+    <div class="bloco-tipografico" aria-hidden="true">{{{monogramaGrande}}}</div>
+    <div class="secao__cabecalho">
+      <p class="eyebrow">Instrutor</p>
+      <h2 class="titulo-2" id="instrutor-titulo">{{curso.instrutor.nome}}</h2>
+      <p class="lead">{{curso.instrutor.resumo}}</p>
+      <p><a href="/#sobre">Conheça a trajetória completa</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="secao" aria-labelledby="faq-titulo">
+  <div class="container container--texto">
+    <div class="secao__cabecalho">
+      <p class="eyebrow">Dúvidas</p>
+      <h2 class="titulo-2" id="faq-titulo">Perguntas frequentes</h2>
+    </div>
+    {{{curso.faqHTML}}}
+  </div>
+</section>
+
+<section class="secao secao--marinho sobre-marinho" aria-labelledby="inscricao-titulo" data-cta-final>
+  <div class="container chamada-final">
+    <p class="eyebrow">Inscrição</p>
+    <h2 class="titulo-1" id="inscricao-titulo">Prepare a empresa e os clientes para a transição.</h2>
+    <p class="lead">Garantia: {{curso.garantia}}</p>
+    <div class="botoes botoes--empilhar">{{{curso.linkCompraClaro}}}</div>
+  </div>
+</section>
+
+<div class="barra-cta sobre-marinho" data-barra-cta hidden>
+  <span class="barra-cta__texto">{{curso.statusRotulo}}</span>
+  {{{curso.linkCompraBarra}}}
+</div>

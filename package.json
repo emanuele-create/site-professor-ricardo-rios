@@ -1,0 +1,27 @@
+{
+  "name": "site-professor-ricardo-rios",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site do Professor Ricardo Rios — HTML, CSS e JS puros, gerado estaticamente.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/serve.mjs",
+    "validate:html": "html-validate \"dist/**/*.html\"",
+    "check:links": "node scripts/check-links.mjs",
+    "test:e2e": "playwright test",
+    "test": "npm run build && npm run validate:html && npm run check:links && npm run test:e2e",
+    "test:setup": "playwright install chromium"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.0",
+    "@fontsource/inter": "^5.1.0",
+    "@fontsource/montserrat": "^5.1.0",
+    "@fontsource/playfair-display": "^5.1.0",
+    "@playwright/test": "^1.48.0",
+    "html-validate": "^8.24.0"
+  }
+}
