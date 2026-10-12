@@ -1,0 +1,110 @@
+# Blueprint do Render — site estático
+# Gerado a partir de src/static/_headers e src/static/_redirects.
+# Ao alterar esses arquivos, atualize também este (ou rode: node scripts/render-yaml.mjs).
+services:
+  - type: web
+    name: site-professor-ricardo-rios
+    runtime: static
+    buildCommand: node scripts/build.mjs
+    staticPublishPath: ./dist
+    headers:
+      - path: /*
+        name: Strict-Transport-Security
+        value: "max-age=63072000; includeSubDomains; preload"
+      - path: /*
+        name: Content-Security-Policy
+        value: "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://formspree.io; frame-src https://www.youtube-nocookie.com; form-action 'self' https://formspree.io mailto:; frame-ancestors 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests"
+      - path: /*
+        name: X-Content-Type-Options
+        value: "nosniff"
+      - path: /*
+        name: X-Frame-Options
+        value: "DENY"
+      - path: /*
+        name: Referrer-Policy
+        value: "strict-origin-when-cross-origin"
+      - path: /*
+        name: Permissions-Policy
+        value: "camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()"
+      - path: /*
+        name: Cross-Origin-Opener-Policy
+        value: "same-origin"
+      - path: /assets/css/*
+        name: Cache-Control
+        value: "public, max-age=31536000, immutable"
+      - path: /assets/js/*
+        name: Cache-Control
+        value: "public, max-age=31536000, immutable"
+      - path: /assets/fonts/*
+        name: Cache-Control
+        value: "public, max-age=31536000, immutable"
+      - path: /assets/img/*
+        name: Cache-Control
+        value: "public, max-age=604800"
+    routes:
+      - type: redirect
+        source: /inicio/
+        destination: /
+      - type: redirect
+        source: /inicio/blog-contabil-financeiro/
+        destination: /blog/
+      - type: redirect
+        source: /cursos-palestras-ia-reforma/blog-contabil-financeiro/
+        destination: /blog/
+      - type: redirect
+        source: /cursos-palestras-ia-reforma/
+        destination: /
+      - type: redirect
+        source: /category/*
+        destination: /blog/
+      - type: redirect
+        source: /evolucao-da-tecnologia-de-hardware-de-ia-o-que-voce-precisa-saber/
+        destination: /blog/categoria/tecnologia-ia/
+      - type: redirect
+        source: /como-a-inteligencia-artificial-pode-ajudar-a-tornar-os-data-centers-mais-sustentaveis/
+        destination: /blog/categoria/tecnologia-ia/
+      - type: redirect
+        source: /mit-transit-lab-desenvolve-plataforma-de-ia-para-agencias-de-transporte-publico/
+        destination: /blog/categoria/tecnologia-ia/
+      - type: redirect
+        source: /impacto-do-aumento-de-precos-da-deepseek-na-industria-de-ai/
+        destination: /blog/categoria/tecnologia-ia/
+      - type: redirect
+        source: /desenvolvendo-a-inteligencia-artificial-para-o-mundo-real/
+        destination: /blog/categoria/tecnologia-ia/
+      - type: redirect
+        source: /o-que-voce-precisa-saber-sobre-a-fase-de-integracao-do-split-payment/
+        destination: /blog/split-payment-o-que-comeca-agora/
+      - type: redirect
+        source: /split-payment-o-que-os-prestadores-de-servicos-de-pagamento-precisam-saber/
+        destination: /blog/split-payment-o-que-comeca-agora/
+      - type: redirect
+        source: /fase-de-testes-do-split-payment-o-que-seu-negocio-precisa-saber/
+        destination: /blog/split-payment-o-que-comeca-agora/
+      - type: redirect
+        source: /split-payment-entenda-a-nova-fase-de-integracao-com-prestadores-de-servicos-de-pagamento/
+        destination: /blog/split-payment-o-que-comeca-agora/
+      - type: redirect
+        source: /fase-de-integracao-do-split-payment-o-que-esperar-e-como-participar/
+        destination: /blog/split-payment-o-que-comeca-agora/
+      - type: redirect
+        source: /novos-codigos-de-meios-de-pagamento-na-reforma-tributaria-dfe-split-payment/
+        destination: /blog/split-payment-o-que-comeca-agora/
+      - type: redirect
+        source: /entenda-como-obter-descontos-de-ate-65-em-dividas-tributarias/
+        destination: /blog/transacao-tributaria-quando-vale-a-pena/
+      - type: redirect
+        source: /entenda-as-novas-regras-sobre-isencao-de-ganho-de-capital-e-denuncia-espontanea/
+        destination: /blog/categoria/contabilidade/
+      - type: redirect
+        source: /reforma-tributaria-trf-3-suspende-aumento-de-irpj-e-csll/
+        destination: /blog/categoria/contabilidade/
+      - type: redirect
+        source: /mude-sua-percepcao-sobre-a-emissao-do-cnpj-com-a-nova-reforma-tributaria/
+        destination: /blog/categoria/reforma-tributaria/
+      - type: redirect
+        source: /desafios-do-novo-sistema-de-tributacao-o-que-esperar/
+        destination: /blog/categoria/reforma-tributaria/
+      - type: redirect
+        source: /novidade-no-simples-nacional-mudancas-importantes-para-2027/
+        destination: /blog/categoria/reforma-tributaria/

@@ -69,16 +69,30 @@ O formato dos artigos é o contrato para o CMS futuro:
 3. **Logotipo**: substituir o monograma tipográfico pelo arquivo vetorial (SVG) oficial.
 4. **Podcast**: confirmar se os episódios em `episodios.json` são os que devem aparecer.
 
-## Publicação (Cloudflare Pages)
+## Publicação no Render (site estático)
 
-1. Conectar o repositório no Cloudflare Pages.
-2. Comando de build: `node scripts/build.mjs` · Diretório de saída: `dist`.
-3. Apontar o domínio `professorricardorios.com.br` para o projeto (HTTPS automático).
-4. Ativar no painel: *Always Use HTTPS*, regras gerenciadas do WAF e proteção contra bots.
-5. Após publicar: rodar o Lighthouse (meta ≥ 90) e o [securityheaders.com](https://securityheaders.com)
-   (meta nota A), conforme a constituição.
+O repositório já traz um `render.yaml` (Blueprint) com o build, os cabeçalhos de segurança e
+os redirecionamentos dos endereços antigos.
 
-Os arquivos `_headers` e `_redirects` também funcionam na Netlify sem alterações.
+1. No [Render](https://dashboard.render.com), clique em **New → Blueprint** e conecte o
+   repositório `emanuele-create/site-professor-ricardo-rios`.
+2. Escolha a branch que será publicada (`main` depois do merge, ou `001-site-institucional`
+   para testar antes) e confirme. O Render lê o `render.yaml` e cria o serviço:
+   build `node scripts/build.mjs`, pasta publicada `dist`.
+3. Aguarde o primeiro deploy e teste no endereço `*.onrender.com`.
+4. Em **Settings → Custom Domains**, adicione `professorricardorios.com.br` e
+   `www.professorricardorios.com.br` e crie no provedor de DNS os registros que o Render
+   indicar. O certificado HTTPS é emitido automaticamente.
+5. A cada push na branch escolhida, o Render publica de novo sozinho.
+
+Se mudar `src/static/_headers` ou `src/static/_redirects`, rode `npm run render:yaml` para
+atualizar o `render.yaml`.
+
+Depois de publicar: Lighthouse (meta ≥ 90) e [securityheaders.com](https://securityheaders.com)
+(meta nota A), conforme a constituição.
+
+Os arquivos `_headers` e `_redirects` também funcionam na Cloudflare Pages e na Netlify, caso
+um dia o site mude de hospedagem.
 
 ## Segurança
 

@@ -70,3 +70,12 @@
 - **Decision**: `html-validate` (W3C-like), verificador de links próprio, Playwright + axe-core
   para WCAG 2.2 AA e larguras. Lighthouse e securityheaders.com executados após publicação
   (passos manuais em quickstart.md).
+
+## 9. Atualização (2026-10-12): hospedagem no Render
+
+- **Decision**: publicar como Static Site no Render, configurado por `render.yaml` (Blueprint).
+- **Rationale**: escolha do cliente. O Render oferece CDN, HTTPS automático com redirecionamento
+  de HTTP e proteção DDoS. Como ele não lê `_headers`/`_redirects`, `scripts/render-yaml.mjs`
+  converte esses arquivos em `headers` e `routes` do Blueprint (fonte única mantida).
+- **Observação**: o Render só aplica redirecionamentos quando não existe arquivo no caminho;
+  os endereços antigos não existem em `dist/`, então todos são redirecionados (301).

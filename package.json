@@ -14,7 +14,8 @@
     "check:links": "node scripts/check-links.mjs",
     "test:e2e": "playwright test",
     "test": "npm run build && npm run validate:html && npm run check:links && npm run test:e2e",
-    "test:setup": "playwright install chromium"
+    "test:setup": "playwright install chromium",
+    "render:yaml": "node scripts/render-yaml.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.10.0",
